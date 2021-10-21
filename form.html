@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Formulir Pendaftaran</title>
+    </head>
+    <body>
+        <h1>Formulir Ekstrakurikuler</h1>
+        <form>
+            <fieldset style="background-color: aqua;">
+                <legend>Data User</legend>
+                <div>
+                    <label>User Name</label>
+                    <input type="text" name="username"
+                        value="" size="25">
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" name="passwd"
+                        value="" size="25>"
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Olahraga Favorit yang Anda Lakukan:</legend>
+                <select name="olahraga" size="3" multiple>
+                    <option value="O1">Olahraga Bulu Tangkis</option>
+                    <option value="O2">Olahraga Futsal</option>
+                    <option value="O3">Olahraga Basket</option>
+                    <option value="O4">Olahraga Renang</option>
+                    <option value="O5">Olahraga Sepeda</option>
+                    <option value="O6">Olahraga Panjat Tebing</option>
+                </select>
+            <fieldset>
+            <fieldset>
+                <legend>Deskripsikan Bakat Olahraga Pilihan Anda</legend>
+                <textarea cols="50" rows="4" name="Deskripsi"></textarea>
+            </fieldset>
+            <input type="submit" value="kirim" name="proses"/>
+            <input type="reset" value="clear"/>
+        </form>
+    </body>
+</html>
