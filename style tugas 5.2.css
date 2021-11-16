@@ -1,0 +1,35 @@
+.box1 {
+    width: 1500px;
+    height: 100px;
+    background-color: green;
+    margin: 1em;
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color:yellow;
+    margin: 1em;
+}
+
+.box3 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin: 1em;
+}
+
+.box4 {
+    width: 1000px;
+    height: 150px;
+    background-color: orangered;
+    margin: 1em;
+}
+
+.box5 {
+    width: 1000px;
+    height: 150px;
+    background-color: blue;
+    margin: 1em;
+}
+}
