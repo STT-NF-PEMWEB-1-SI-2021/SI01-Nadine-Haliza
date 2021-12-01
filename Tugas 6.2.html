@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<style>
+    #container {
+        display: flex;
+        width: 40%;
+        height: 300%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items:flex-start;
+   }
+
+   .boxnav {
+       width: 35%;
+       height: 300px;
+       margin-left: 1em;
+       padding-top: 20em;
+       text-align: center;
+       background-color: crimson;
+   }
+
+   .boxheader {
+       width: 1200px;
+       height: 70px;
+       padding-top: 3em;
+       text-align: center;
+       background-color: darkblue;
+   }
+   .boxarticle {
+       width: 1500px;
+       height: 90px;
+       padding-top: 3em;
+       text-align: center;
+       background-color: darkorchid;
+   }
+   .boxaside {
+       flex: auto;
+       width: 68%;
+       height: 500px;
+       padding-top: 1em;
+       padding-left: 2em;
+       text-align: center;
+       background-color: deepskyblue;
+   }
+
+   .boxfooter {
+       width: 35%;
+       height: 156px;
+       padding-top: 3em;
+       text-align: center;
+       background-color: gold;
+   }
+
+</style>
+<body>
+    <div id="container">
+        <div class="box box1"><nav>nav</nav></div>
+        <div class="box box2"><header>header</header></div>
+        <div class="box box3"><article>article</article></div>
+        <div class="box box4"><aside>aside</aside></div>
+        <div class="box box4"><footer>footer</footer></div>
+       
+</body>
+</html>
