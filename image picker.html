@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Picker</title>
+</head>
+<style>
+    * {
+        margin: 5px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .body {
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+    .gambar {
+        width: 50vh;
+    }
+</style>
+<script>
+    function pilih() {
+        let list_atlet = document.getElementById("atlet");
+        let idx = list_atlet.selectedIndex;
+        console.log("atlet index ke-" + idx + " adalah " + list_atlet[idx].value);
+        let area_gambar = document.getElementById("gambar");
+        area_gambar.src="gambar/" + list_atlet[idx].value + ".jpg"
+alert("ini adalah:" + list_atlet.value)
+    }
+</script>
+<body class="body">
+    <form id="form">
+        <select id="atlet Badminton" onchange="pilih()">
+            <option value="tidak ada">Tidak dipilih</option>
+            <option value="rm">kevin sanjaya</option>
+            <option value="Jn">fajar alfian</option>
+            <option value="sg">rian ardianto</option>
+            <option value="hop">jonatan Christie</option>
+            <option value="jm">Anthony ginting</option>
+            <option value="V">hendra setiawan</option>
+            <option value="jk">mohammad ahsan</option>
+            <option value="bts">Atlet Badminton</option>
+        </select>
+    </form>
+    <br>
+    <img class="gambar" src="" alt="Tidak dipilih" id="gambar"/>
+</body>
+</html>
